@@ -1,0 +1,15 @@
+{
+  "name": "paneladmin",
+  "version": "1.0.0",
+  "main": "dds.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@notionhq/client": "^2.2.15"
+  }
+}
