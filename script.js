@@ -4,13 +4,13 @@ const { Client } = require("@notionhq/client");
 
 // Ініціалізація клієнта Notion
 const notion = new Client({
-    auth: "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",
+    auth: "YOUR_TOKEN",
 });
 
 // Змінні для ID баз даних
-const mainDatabaseId = "14edcd70af628156bce5f3b189aa97d0"; // Сurrent tasks database1
-const secondDatabaseId = "14edcd70af62818e9a4cea8b31f468e6"; // Project database2
-const thirdDatabaseId = "14edcd70af6281459bf1f563fd8f0ba0"; // Targeted projects database3
+const mainDatabaseId = ""; // Сurrent tasks database1
+const secondDatabaseId = ""; // Project database2
+const thirdDatabaseId = ""; // Targeted projects database3
 
 async function createNewTask(
     title,
